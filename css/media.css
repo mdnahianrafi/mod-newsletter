@@ -1,0 +1,80 @@
+@media (max-width: 1536px) {
+    .title-description  {
+margin: 10px;
+    }
+    .title-description  h2{
+font-size: 25px;
+    }
+    .title-description  p{
+font-size: 16px;
+    }
+
+.food-bank  {
+    margin-left: 10px;
+}
+.food-bank h3 {
+    font-size: 25px;
+}
+
+.animal-shelter h3 {
+    font-size: 25px;
+}
+
+    .get-involved h2 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .get-involved p {
+        font-size: 35px;
+    }
+  }
+@media (max-width: 1024px) {
+    .title-description  {
+margin: 10px;
+    }
+    .title-description  h2{
+font-size: 25px;
+    }
+    .title-description  p{
+font-size: 16px;
+    }
+
+.food-bank  {
+    margin-left: 10px;
+}
+.food-bank h3 {
+    font-size: 25px;
+}
+
+.animal-shelter h3 {
+    font-size: 25px;
+}
+
+
+  }
+  
+
+@media (max-width: 768px) {
+
+    .get-involved h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .get-involved p {
+        font-size: 25px;
+    }
+
+  }
+@media (max-width: 468px) {
+
+    .get-involved h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .get-involved p {
+        font-size: 20px;
+    }
+
+
+  }
+  

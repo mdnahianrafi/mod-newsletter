@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+container-fluid {
+    position: relative;
+}
+
+
+.banner-bg{
+   background-image: url(../images/banner\ bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.logo {
+    position: absolute;
+}
+.main-title {
+    font-weight: 800;
+}
+
+.border-bottom-1
+{
+    border-bottom: 2px solid rgb(190, 181, 181);
+}
+
+.animal-shelter  {
+ margin: 5px;
+ padding: 0 15px;
+}
+.animal-shelter i {
+    font-size: 44px ;
+    display: flex;
+    justify-content: center;
+}
+
+.get-involved h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.get-involved p {
+    font-size: 40px;
+}
+
+a
+{
+    text-decoration: none;
+}
+.btn-brown {
+    padding: 5px;
+    background-color: #ba794c;
+    border: 2px solid #ba794c;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+.btn-brown:hover {
+    background-color: transparent;
+    color: #000;
+transition: 0.3s ease-in-out;
+
+}
+
+.events-part {
+    background: rgb(245,245,242);
+    background: -moz-linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
+    background: -webkit-linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
+    background: linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f2",endColorstr="#02020a",GradientType=1);
+  
+}
+.events-part .event-title h1 {
+
+font-size: 50px;
+}
+
+.event-item {
+ background: #dddddd;
+
+    border-radius: 25px;
+}
+
+
+.event-item  .theme-title {
+font-size: 25px;
+font-weight: 600;
+padding: 10px 10px;
+}
+
+.text-padding {
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.extra-padding {
+    padding-top: 20px;
+    padding-bottom: 340px;
+}
