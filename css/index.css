@@ -1,46 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in element dimensions */
 }
 
-
-
-body{
+body {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
 }
 
-container-fluid {
+.container-fluid {
     position: relative;
 }
 
+h5 {
+    font-size: 16px; /* Adjusted font size */
+}
 
-.banner-bg{
-   background-image: url(../images/banner\ bg.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+.banner-bg {
+    background-image: url(../images/banner\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo {
     position: absolute;
 }
+
 .main-title {
     font-weight: 800;
 }
 
-.border-bottom-1
-{
+.border-bottom-1 {
     border-bottom: 2px solid rgb(190, 181, 181);
 }
 
-.animal-shelter  {
- margin: 5px;
- padding: 0 15px;
+.animal-shelter {
+    margin: 5px;
+    padding: 0 15px;
 }
+
 .animal-shelter i {
-    font-size: 44px ;
+    font-size: 44px;
     display: flex;
     justify-content: center;
 }
@@ -49,63 +52,78 @@ container-fluid {
     font-size: 60px;
     font-weight: 700;
 }
+
 .get-involved p {
     font-size: 40px;
 }
 
-a
-{
+a {
     text-decoration: none;
 }
+
 .btn-brown {
-    padding: 5px;
+    padding: 8px 16px; /* Adjusted padding */
     background-color: #ba794c;
     border: 2px solid #ba794c;
     color: #fff;
     font-weight: 700;
     border-radius: 15px;
-    font-size: 20px;
-
+    font-size: 16px; /* Adjusted font size */
+    display: inline-block; /* Ensure buttons are aligned */
+    text-align: center;
 }
+
 .btn-brown:hover {
     background-color: transparent;
     color: #000;
-transition: 0.3s ease-in-out;
-
+    transition: 0.3s ease-in-out;
 }
 
 .events-part {
-    background: rgb(245,245,242);
-    background: -moz-linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
-    background: -webkit-linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
-    background: linear-gradient(180deg, rgba(245,245,242,1) 84%, rgba(2,2,10,0.3169642857142857) 99%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f2",endColorstr="#02020a",GradientType=1);
-  
+    background: rgb(245, 245, 242);
+    background: -moz-linear-gradient(180deg, rgba(245, 245, 242, 1) 84%, rgba(2, 2, 10, 0.3169642857142857) 99%);
+    background: -webkit-linear-gradient(180deg, rgba(245, 245, 242, 1) 84%, rgba(2, 2, 10, 0.3169642857142857) 99%);
+    background: linear-gradient(180deg, rgba(245, 245, 242, 1) 84%, rgba(2, 2, 10, 0.3169642857142857) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f2", endColorstr="#02020a", GradientType=1);
 }
-.events-part .event-title h1 {
 
-font-size: 50px;
+.events-part .event-title h1 {
+    font-size: 50px;
 }
 
 .event-item {
- background: #dddddd;
-
     border-radius: 25px;
+    padding: 15px; /* Added padding */
+    margin-bottom: 20px; /* Added margin */
+    background-color: #fff; /* Added background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+    min-height: 600px; /* Set a minimum height for all event items */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly */
 }
 
-
-.event-item  .theme-title {
-font-size: 25px;
-font-weight: 600;
-padding: 10px 10px;
+.event-item .theme-title {
+    font-size: 20px; /* Adjusted font size */
+    font-weight: 600;
+    padding: 10px 0; /* Adjusted padding */
+    margin: 0; /* Remove default margin */
 }
 
 .text-padding {
-    padding-left: 16px;
+    padding-left: 0; /* Adjusted padding */
     font-weight: 500;
+    font-size: 14px; /* Adjusted font size */
+    margin: 5px 0; /* Adjusted margin */
+}
+
+.event-item img {
+    width: 100%; /* Ensure images are responsive */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure images cover the area */
+    border-radius: 15px; /* Added border radius */
 }
 
 .extra-padding {
-    padding-top: 20px;
-    padding-bottom: 340px;
+    padding-top: 15px; /* Adjusted padding */
 }
